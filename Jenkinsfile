@@ -4,9 +4,9 @@ pipeline {
         USER_MAIL = sh ( script: 'git --no-pager show -s --format=\'%ae\'', returnStdout: true ).trim()
     }
     stages{
-        stage('Hello AHMED') {
+        stage('Hello hfethi') {
             steps {
-                echo 'Hello AHMED'
+                echo 'Hello hfethi'
             }
         }
     }
